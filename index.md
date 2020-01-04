@@ -1,12 +1,23 @@
-## Welcome to GitHub Pages
-
-### Markdown
-
-<table>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan Membuat Form</title>
+</head>
+<body>
+ 
+<!--Membuat Form-->
+<h1>Formulir Mahasiswa</h1>	
+<form>
+	<table>
 		<tr>
 			<td>Nama</td>
 			<td>:</td>
 			<td><input type="text" name="nama" placeholder="Nama"></td>
+		</tr>
+		<tr>
+			<td>NPM</td>
+			<td>:</td>
+			<td><input type="text" name="npm" placeholder="NPM"></td>
 		</tr>
 		<tr>
 			<td>Kelas</td>
@@ -77,8 +88,6 @@
 			</td>
 		</tr>
 	</table>
-
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</form>
+</body>
+</html>
