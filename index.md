@@ -13,11 +13,6 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 			<td><input type="text" name="nama" placeholder="Nama"></td>
 		</tr>
 		<tr>
-			<td>NPM</td>
-			<td>:</td>
-			<td><input type="text" name="npm" placeholder="NPM"></td>
-		</tr>
-		<tr>
 			<td>Kelas</td>
 			<td>:</td>
 			<td><input type="text" name="kelas" placeholder="Kelas"></td>
