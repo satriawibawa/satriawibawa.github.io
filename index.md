@@ -6,31 +6,87 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<table>
+		<tr>
+			<td>Nama</td>
+			<td>:</td>
+			<td><input type="text" name="nama" placeholder="Nama"></td>
+		</tr>
+		<tr>
+			<td>NPM</td>
+			<td>:</td>
+			<td><input type="text" name="npm" placeholder="NPM"></td>
+		</tr>
+		<tr>
+			<td>Kelas</td>
+			<td>:</td>
+			<td><input type="text" name="kelas" placeholder="Kelas"></td>
+		</tr>
+		<tr>
+			<td>Jenis Kelamin</td>
+			<td>:</td>
+			<td>
+			<input type="radio" name="j_kel" value="Male">Male
+			<input type="radio" name="j_kel" value="Female">Female
+			</td>
+		</tr>
+		<tr>
+			<td>Tanggal Lahir</td>
+			<td>:</td>
+			<td>
+				<input type="date" name="tgl_lahir">
+			</td>
+		</tr>
+		<tr>
+		<tr>
+			<td>Alamat</td>
+			<td>:</td>
+			<td>
+				<textarea name="alamat" placeholder="Alamat"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td>Hobi</td>
+			<td>:</td>
+			<td>
+				<input type="checkbox" name="hobi" value="Main Game">Main Game
+				<input type="checkbox" name="hobi" value="Belajar">Belajar
+				<input type="checkbox" name="hobi" value="Menonton Film">Menonton Film
+			</td>
+		</tr>
+			<td>Jurusan</td>
+			<td>:</td>
+			<td>
+				<select name="jurusan">
+					<option>--Pilih--
+					<option>Sistem Informasi
+					<option>Teknik Informatika
+					<option>Teknik Inustri
+					<option>Psikologi
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Fakultas</td>
+			<td>:</td>
+			<td>
+				<select name="fakultas">
+					<option>--Pilih--
+					<option>Teknologi Industri
+					<option>Ilmu Komputer
+					<option>Psikologi
+					<option>Ekonomi
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="submit" value="Submit">
+				<input type="reset" value="Reset">
+			</td>
+		</tr>
+	</table>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/satriawibawa/satriawibawa.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
